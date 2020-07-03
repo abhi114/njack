@@ -1,4 +1,5 @@
 import shutil
+import socket
 
 def check(disk,min_gb,min_percent):
     #return true if enough disk space else false
