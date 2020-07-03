@@ -10,7 +10,10 @@ def check(disk,min_gb,min_percent):
         return False
     return True
 
-if not check(disk="/",min_gb=2,min_percent=10):
+def check_root_full():
+    return check_disk_full(disk='/',min_gb=2,min_percent=10)
+
+if not check_root_full():
     print("ERROR")
     return 1
 
