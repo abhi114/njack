@@ -17,3 +17,4 @@ if not check(disk="/",min_gb=2,min_percent=10):
 print("GOOD")
 print("VERY good")
 return 0
+print("prevent a three way merge")
