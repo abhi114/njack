@@ -24,3 +24,4 @@ print("GOOD")
 print("VERY good")
 main()
 return 0
+print("yet another line")
