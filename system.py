@@ -15,4 +15,5 @@ if not check("/",2*2**30,10):
     return 1
 
 print("GOOD")
+print("VERY good")
 return 0
