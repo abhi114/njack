@@ -15,4 +15,5 @@ if not check(disk="/",min_gb=2,min_percent=10):
     return 1
 
 print("GOOD")
+print("VERY good")
 return 0
